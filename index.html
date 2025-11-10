@@ -74,22 +74,9 @@
   
     <!-- 슬라이드 1 -->
     <div class="carousel-item">
-      <div style="display: flex; gap: 10px; margin-bottom: 20px;">
-        <!-- First image -->
-        <div style="text-align: center; width: 48%;">
-          <div style="font-weight: bold; margin-bottom: 5px;">First frame</div>
-          <img src="src/img/keyframes_example/dance-twirl_0.png" style="width: 100%;">
-        </div>
-        <!-- Second image -->
-        <div style="text-align: center; width: 48%;">
-          <div style="font-weight: bold; margin-bottom: 5px;">Last frame</div>
-          <img src="src/img/keyframes_example/dance-twirl_80.png" style="width: 100%;">
-        </div>
-      </div>
-      <!-- Video -->
       <div style="text-align: center;">
         <video controls style="width: 100%; height: auto;">
-          <source src="src/img/keyframes_example/wrong_dance.mp4" type="video/mp4">
+          <source src="src/video/human-video/example.mp4" type="video/mp4">
         </video>
       </div>
       <div style="display: flex; justify-content: center; align-items: flex-start; gap: 30px; margin-bottom: 20px; margin-top: 20px;">
@@ -104,31 +91,18 @@
     </div>
 
     <div class="carousel-item">
-      <div style="display: flex; gap: 10px; margin-bottom: 20px;">
-        <!-- First image -->
-        <div style="text-align: center; width: 48%;">
-          <div style="font-weight: bold; margin-bottom: 5px;">First frame</div>
-          <img src="src/img/keyframes_example/parkour_0.png" style="width: 100%;">
-        </div>
-        <!-- Second image -->
-        <div style="text-align: center; width: 48%;">
-          <div style="font-weight: bold; margin-bottom: 5px;">Last frame</div>
-          <img src="src/img/keyframes_example/parkour_80.png" style="width: 100%;">
-        </div>
-      </div>
-      <!-- Video -->
       <div style="text-align: center;">
-        <video controls style="width: 80%; height: auto;">
-          <source src="src/img/keyframes_example/parkour.mp4" type="video/mp4">
+        <video controls style="width: 100%; height: auto;">
+          <source src="src/video/human-video/example.mp4" type="video/mp4">
         </video>
       </div>
       <div style="display: flex; justify-content: center; align-items: flex-start; gap: 30px; margin-bottom: 20px; margin-top: 20px;">
-        <img src="src/img/keyframes_example/parkour_similarity.png" alt="Image" 
+        <img src="src/img/keyframes_example/dance_quality.png" alt="Image" 
              style="width: 50%; height: auto; border: none; margin: 0; padding: 0;">
         <br>
         <div style="width: 50%; font-size: 1.2em; line-height: 1.5;">
-        <h6 style="line-height: 1.6;"> Similarity: <span style="color: blue;">1</span> // Quality: <span style="color: blue;">5</span> </h6>
-        <h6 style="line-height: 1.2;"> The video demonstrates better consistency and human motion, but the final generated frame is significantly different from the input condition.</span></h6>
+        <h6 style="line-height: 1.6;"> Similarity <span style="color: blue;">5</span> // Quality: <span style="color: blue;">1</span> </h6>
+        <h6 style="line-height: 1.2;"> The final generated frame is nearly identical (same) to the input condition, but the video lacks temporal coherence and appears significantly oversaturated.</span></h6>
         </div>
       </div>
     </div>
